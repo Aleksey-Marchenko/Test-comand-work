@@ -1,22 +1,27 @@
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
-main {
-    flex-grow: 1;
+.main{
+  flex-grow: 1;
+  margin: 30px 0 80px;
 }
 
 .container{
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
-}
+  max-width: 1190px; // здесь контейнер на 20 пикселей больше, т.к. падинги 10 пх по бокам, чтобы при адаптиве не париться насчет этого)
+  margin: 0 auto;
+  padding: 0 10px;
+} 
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo{
+  color: white;
+  @extend %lato-400;
+  span{
+    background-color: $accent;
+    padding: 3px 5px;
+    border-radius: 3px;
+  } 
 }
-

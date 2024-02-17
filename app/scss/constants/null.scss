@@ -11,6 +11,17 @@ html {
 }
 
 body {
-  font-size: 16px;
-  font-family: 'Regular';
+  font-size: 14px;
+  @extend %pt-sans-400;
+  color: $default;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[class]{
+  list-style: none;
+}
+ 

@@ -1,0 +1,27 @@
+// переменные основных цветов
+// Если новые найдешь, добавляй сюда
+$dark-1: #000000;
+$dark-2: #171717;
+$dark-3: #232323;
+$dark-4: #373737;
+
+$light: #EBEBEB;
+$default: #666666;
+
+$accent: #4A90E2; 
+
+// шрифты в переменных
+%lato-400 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+%pt-sans-400 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+
+%pt-sans-700 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}

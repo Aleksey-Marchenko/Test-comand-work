@@ -1,2 +1,1 @@
-//= ../components/modal.js
-console.log('Hello');
+//= ../components/sticky-header.js
