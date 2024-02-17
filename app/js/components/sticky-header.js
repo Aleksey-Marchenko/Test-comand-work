@@ -1,6 +1,7 @@
 if (document.querySelector(".header")) {
   // инициализируем top Navigation
   const topNavigation = document.querySelector(".header");
+  const heightTopBlock = 76;
   // попап меню - блок
   // const popupMenu = document.getElementById("popup-menu");
   // Функция добавляет класс элементу в зависимости от координат окна
@@ -10,7 +11,7 @@ if (document.querySelector(".header")) {
       // инициализируем координаты окна по Y
       const coordWindow = window.scrollY;
       // если координаты окна больше 80, то добавляем класс, иначе - нет
-      coordWindow > 0
+      coordWindow > heightTopBlock
         ? elem.classList.add("active")
         : elem.classList.remove("active");
       // coordWindow > 0
